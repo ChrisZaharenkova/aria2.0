@@ -295,10 +295,10 @@ height: 488px;padding: 0 50px 0 0}
 
 .body-about1 {}
 .body-about1__title {
-  rgba(244, 244, 244, 1)
+  color:rgba(244, 244, 244, 1)
 }
 .body-about1__text {
-  rgba(184, 184, 184, 1)
+  color:rgba(184, 184, 184, 1)
 }
 .body-about1__link{}
 
@@ -306,7 +306,7 @@ height: 488px;padding: 0 50px 0 0}
 
 /*---ABOUT2---------------------------------*/
 .about2 {
-  padding: 50px 0;
+  padding:50px 0;
 }
 .about2__container {}
 .about2__row {
@@ -620,7 +620,7 @@ top: 50px;
   background-clip: text;
   -webkit-background-clip:text;
 }
-}
+
 .body-footer__text {}
 
 .footer__form {
@@ -640,7 +640,7 @@ top: 50px;
  padding: 0px 200px 10px 10px ;
  color: rgba(184, 184, 184, 1);
  border-bottom:0.5px solid grey;
- border-bo
+
 }
 .form__input-name,
 .form__input-email,
@@ -1213,7 +1213,7 @@ top: 50px;
 .year__title {text-transform: uppercase;margin-bottom: 20px}
 .year__num {}
 
-.grafic__image {padding: 130px 0 0 130px}
+.grafic__image {}
 /*-----FundingMedia--------------------------*/
 @media(max-width:992px){
   .Command__grid{grid-template-columns: 1fr;
