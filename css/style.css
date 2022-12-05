@@ -666,7 +666,7 @@ top: 50px;
 .form__button::after{
   content: "";
   position: absolute;
-  top: 2px;
+  top: 5px;
   left: 110%;
   background: url(../img/about1/Arrow.png) no-repeat;
   width: 25px;
