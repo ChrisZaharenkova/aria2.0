@@ -569,7 +569,7 @@ top: 50px;
   position: absolute;
   transition: 0.6s;
 }
-.insights__link{display: inline-block;}
+.insights__link{display: inline-block;align-items: flex-end;}
 
 .grid-insights__item {
   width: 560px;
@@ -1267,7 +1267,7 @@ top: 50px;
   }
   .insights-bottom__container{
     flex-direction: column-reverse;
-    gap: 20px;
+    gap: 40px;
   }
   .insights__bottom{padding: 30px 0 50px 0;}
   .item-command-textblock{
@@ -1276,7 +1276,7 @@ top: 50px;
   .item-command-line {width: 400px}
   .item-command-line_2 {width: 400px}
    .item-command-image img{
-    width: 70%;
+    width: 100%;
    }
    .fundingCommand{padding: 0 0 100px 0}
    .Main {
