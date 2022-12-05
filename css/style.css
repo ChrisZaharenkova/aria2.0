@@ -1279,6 +1279,7 @@ top: 50px;
   margin: 150px 0 80px 0;}
 }
 @media(max-width:479px){
+  .Main-body{padding: 200px 0 100px 30px;}
   .item-command-titleblock {
     
   max-width: 350px;
