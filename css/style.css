@@ -656,10 +656,20 @@ top: 50px;
 }
 
 .form__button {
-  background-color: rgba(153, 169, 255, 1);
-  color: transparent;
+  color: rgba(153, 169, 255, 1);
+  background-color: #262525;
   text-transform: uppercase;
-  -webkit-background-clip: text;
+  position: relative;
+}
+.form__button::after{
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 110%;
+  background: url(../img/about1/Arrow.png) no-repeat;
+  width: 25px;
+  height: 10px;
+  background-size: contain
 }
 
 .links-footer {
