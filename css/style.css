@@ -602,6 +602,7 @@ top: 50px;
 .sliderControls{display: flex;gap: 5px}
 .next,
 .prev{background-color: #262525;}
+
 /*--FOOTER_____________________________________*/
 .footer {}
 .footer__container {}
@@ -1283,8 +1284,7 @@ top: 50px;
   max-width: 350px;
   }
   .insights-bottom__container{
-    flex-direction: column-reverse;
-    gap: 40px;
+  
   }
   .insights__bottom{padding: 30px 0 50px 0;}
   .item-command-textblock{
