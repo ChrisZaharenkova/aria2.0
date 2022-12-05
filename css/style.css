@@ -660,7 +660,8 @@ top: 50px;
   background-color: #262525;
   text-transform: uppercase;
   position: relative;
-  font-size: 'Ginora Sans';
+  font-family: 'Ginora Sans';
+  font-size: 18px;
 }
 .form__button::after{
   content: "";
