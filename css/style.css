@@ -917,7 +917,7 @@ top: 50px;
 .body-programMain__title {}
 /*=====HOWITWORKS===================*/
 .programHowitworks {padding: 0 0 200px 0}
-.programHowitworks__container {display: flex;flex-direction: column;align-items: center;}
+.programHowitworks__container {display: flex;flex-direction: column;align-items: flex-start;}
 .howitworks__titleBlock{
   display: flex;
   flex-direction: column;
@@ -1125,7 +1125,7 @@ top: 50px;
   }
   .programHowitworks{padding: 0 0 80px 0;}
   .howitworks__text,
-  .howitworks__titleBlock{width: 400px;}
+  .howitworks__titleBlock{width: 350px;}
   .programHowitworks__phases{
     flex-wrap: wrap;
   }
