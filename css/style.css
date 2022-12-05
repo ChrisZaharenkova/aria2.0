@@ -655,7 +655,12 @@ top: 50px;
   background-position: bottom left 10px;
 }
 
-.form__button {}
+.form__button {
+  background-color: rgba(153, 169, 255, 1);
+  color: transparent;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+}
 
 .links-footer {
   padding: 90px 0;
